@@ -6,7 +6,7 @@
         :page-size="1"
         :pager-count="11"
         layout="prev, pager, next"
-        :total="19">
+        :total="20">
       </el-pagination>
     </div>
 

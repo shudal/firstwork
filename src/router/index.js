@@ -23,6 +23,7 @@ const q16 = r => require.ensure([], () => r(require('@/page/q16')), 'q16');
 const q17 = r => require.ensure([], () => r(require('@/page/q17')), 'q17');
 const q18 = r => require.ensure([], () => r(require('@/page/q18')), 'q18');
 const q19 = r => require.ensure([], () => r(require('@/page/q19')), 'q19');
+const q20 = r => require.ensure([], () => r(require('@/page/q20')), 'q20');
 
 Vue.use(Router)
 
@@ -52,6 +53,7 @@ export default new Router({
         {path: '/q17', component: q17},
         {path: '/q18', component: q18},
         {path: '/q19', component: q19},
+        {path: '/q20', component: q20},
       ]
     }
   ]
